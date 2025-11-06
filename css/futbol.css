@@ -1,0 +1,58 @@
+body{
+    background-color: #0f7c3d;
+}
+#titulo{
+    color: antiquewhite;
+    margin: 10px;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    background-image: url(/JP/imagenes/barca.webp);
+    background-size: cover;      /* Cubre todo el espacio */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    height: auto;
+    color: rgb(9, 8, 8);
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    background-image: url(/JP/imagenes/chivas-u-s-a-club-crest-84yjp5o37fb9vzrq.webp);
+     background-size: cover;      /* Cubre todo el espacio */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    height: auto;
+    color: rgb(189, 182, 182);
+
+}
+
+.div6 {
+    grid-column: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div7 {
+    grid-column: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-column: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}

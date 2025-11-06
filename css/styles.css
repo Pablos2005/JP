@@ -1,0 +1,37 @@
+nav{
+    background-color: grey;
+}
+body {
+    background-color: lightgrey;
+}
+h1 {
+    color: rgb(82, 82, 138);
+}
+h2 {
+    color: darkred;
+}
+h3 {
+    color: rgb(171, 184, 133);
+}
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+section {
+    margin: 20px;
+}
+button {
+    margin: 5px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* Cambia 1fr a auto */
+    grid-template-rows: auto; /* Solo las filas necesarias */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.div1 { 
+    grid-area: 1 / 3 / 2 / 4; 
+}
